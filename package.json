@@ -29,7 +29,8 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "echo 'no test implemented yet'"
   },
   "dependencies": {
     "@nrwl/detox": "*",
