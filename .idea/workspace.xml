@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a6b5576-b4c0-4c2b-81d5-7c671ea34d67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="1be72f38-a126-493d-9aeb-7459bfd7d59e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/generators/application/files/react-navigation/android/app/src/main/java/com/__lowerCaseName__/MainActivity.java.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generators/application/application.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/generators/application/application.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generators/application/schema.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/generators/application/schema.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generators/application/schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generators/application/schema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generators/init/init.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/generators/init/init.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generators/init/schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generators/init/schema.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,25 +31,30 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/generators/init/files" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/generators/init/files" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/generators/application/files/react-navigation" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0a6b5576-b4c0-4c2b-81d5-7c671ea34d67" name="Default Changelist" comment="" />
+      <changelist id="1be72f38-a126-493d-9aeb-7459bfd7d59e" name="Changes" comment="" />
       <created>1634465098331</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634465098331</updated>
       <workItem from="1634465099709" duration="1858000" />
+      <workItem from="1634471803673" duration="4349000" />
     </task>
     <servers />
   </component>

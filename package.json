@@ -22,10 +22,20 @@
   },
   "license": "MIT",
   "contributors": [
-    {"name":"Tim Simon","email":"tim@mirahi.io","url":"https://github.com/xorob0"},
-    {"name":"Aylin Gokalp","email":"aylin@mirahi.io"},
-    {"name":"Sacha Hennaut"}
-    ],
+    {
+      "name": "Tim Simon",
+      "email": "tim@mirahi.io",
+      "url": "https://github.com/xorob0"
+    },
+    {
+      "name": "Aylin Gokalp",
+      "email": "aylin@mirahi.io",
+      "url": "https://github.com/ayghon"
+    },
+    {
+      "name": "Sacha Hennaut"
+    }
+  ],
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {

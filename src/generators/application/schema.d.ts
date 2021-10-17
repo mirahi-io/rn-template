@@ -14,4 +14,5 @@ export interface Schema {
   linter?: Linter;
   setParserOptionsProject?: boolean;
   e2eTestRunner?: 'detox' | 'none';
+  navigation?: boolean;
 }

@@ -1,10 +1,10 @@
 import { setDefaultCollection } from '@nrwl/workspace/src/utilities/set-default-collection';
 import {
-  addDependenciesToPackageJson,
-  convertNxGenerator,
-  formatFiles,
-  removeDependenciesFromPackageJson,
-  Tree,
+    addDependenciesToPackageJson,
+    convertNxGenerator,
+    formatFiles,
+    removeDependenciesFromPackageJson,
+    Tree,
 } from '@nrwl/devkit';
 import { Schema } from './schema';
 import {
@@ -14,10 +14,10 @@ import {
   nxVersion,
   reactNativeCommunityCli,
   reactNativeCommunityCliAndroid,
-  reactNativeCommunityCliIos,
+  reactNativeCommunityCliIos, reactNativeSafeAreaContext, reactNativeScreens,
   reactNativeSvgTransformerVersion,
   reactNativeSvgVersion,
-  reactNativeVersion,
+  reactNativeVersion, reactNavigationNativeStackVersion, reactNavigationNativeVersion,
   reactTestRendererVersion,
   reactVersion,
   testingLibraryJestNativeVersion,
@@ -34,7 +34,7 @@ export async function reactNativeInitGenerator(host: Tree, schema: Schema) {
   setDefaultCollection(host, '@nrwl/react-native');
   addGitIgnoreEntry(host);
 
-  const tasks = [moveDependency(host), updateDependencies(host)];
+  const tasks = [moveDependency(host), updateDependencies(host, schema)];
 
   if (!schema.unitTestRunner || schema.unitTestRunner === 'jest') {
     const jestTask = jestInitGenerator(host, {});
@@ -53,13 +53,25 @@ export async function reactNativeInitGenerator(host: Tree, schema: Schema) {
   return runTasksInSerial(...tasks);
 }
 
-export function updateDependencies(host: Tree) {
+export function updateDependencies(host: Tree,  schema: Schema) {
+  let dependencies: {[x:string]: string} = {
+    react: reactVersion,
+    'react-native': reactNativeVersion
+  };
+
+  if(schema.navigation) {
+    dependencies = {
+      ...dependencies,
+      "@react-navigation/native": reactNavigationNativeVersion,
+      "@react-navigation/native-stack": reactNavigationNativeStackVersion,
+      "react-native-safe-area-context": reactNativeSafeAreaContext,
+      "react-native-screens": reactNativeScreens
+    }
+  }
+
   return addDependenciesToPackageJson(
     host,
-    {
-      react: reactVersion,
-      'react-native': reactNativeVersion,
-    },
+      dependencies,
     {
       '@nrwl/react-native': nxVersion,
       '@types/react': typesReactVersion,
