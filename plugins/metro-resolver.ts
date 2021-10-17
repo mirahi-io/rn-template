@@ -1,4 +1,4 @@
-import * as metroResolver from 'metro-resolver';
+import * as metroResolver from 'plugins/metro-resolver';
 import type { MatchPath } from 'tsconfig-paths';
 import { createMatchPath, loadConfig } from 'tsconfig-paths';
 import * as chalk from 'chalk';

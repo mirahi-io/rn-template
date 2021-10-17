@@ -2,180 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a6b5576-b4c0-4c2b-81d5-7c671ea34d67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.husky/pre-commit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/rn-template.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.bin/husky" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/husky/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/husky/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/husky/husky.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/husky/lib/bin.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/husky/lib/bin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/husky/lib/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/husky/lib/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/husky/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/executors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/generators.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/migrations.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/nx_post_install.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/plugins/jest/svg-mock.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/plugins/metro-resolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/plugins/with-nx-metro.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/project.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/build-android/build-android.impl.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/build-android/compat.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/build-android/schema.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/build-android/schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/bundle/bundle.impl.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/bundle/compat.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/bundle/schema.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/bundle/schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/ensure-symlink/compat.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/ensure-symlink/ensure-symlink.impl.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/ensure-symlink/schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/run-android/compat.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/run-android/run-android.impl.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/run-android/schema.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/run-android/schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/run-ios/compat.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/run-ios/run-ios.impl.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/run-ios/schema.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/run-ios/schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/start/compat.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/start/lib/is-packager-running.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/start/schema.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/start/schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/start/start.impl.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/sync-deps/compat.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/sync-deps/schema.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/sync-deps/schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/executors/sync-deps/sync-deps.impl.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/application.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/application.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/.babelrc.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/_BUCK.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/build.gradle.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/build_defs.bzl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/debug.keystore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/androidTest/java/com/__lowerCaseName__/DetoxTest.java.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/debug/AndroidManifest.xml.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/debug/java/com/__lowerCaseName__/ReactNativeFlipper.java.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/main/AndroidManifest.xml.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/main/java/com/__lowerCaseName__/MainActivity.java.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/main/java/com/__lowerCaseName__/MainApplication.java.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/main/res/drawable/splashscreen.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/main/res/drawable/splashscreen_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/main/res/values/strings.xml.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/app/src/main/res/xml/network_security_config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/build.gradle.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/gradlew.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/android/settings.gradle.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/app.json.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/ios/Podfile.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/ios/__className__.xcodeproj/project.pbxproj.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/ios/__className__.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/ios/__className__.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/ios/__className__.xcodeproj/xcshareddata/xcschemes/__className__.xcscheme.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/ios/__className__.xcworkspace/contents.xcworkspacedata.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/ios/__className__.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/ios/__className__/AppDelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/ios/__className__/AppDelegate.m.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/ios/__className__/Base.lproj/LaunchScreen.xib.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/ios/__className__/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/ios/__className__/Images.xcassets/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/ios/__className__/Info.plist.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/ios/__className__/LaunchScreen.storyboard.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/ios/__className__/Supporting/Expo.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/ios/__className__/main.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/metro.config.js.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/package.json.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/src/app/App.spec.tsx.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/src/app/App.tsx.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/src/app/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/src/app/star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/src/main.tsx.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/test-setup.ts.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/tsconfig.app.json.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/files/app/tsconfig.json.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/lib/add-detox.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/lib/add-project.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/lib/create-application-files.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/lib/nomalize-options.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/lib/normalize-options.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/schema.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/application/schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/component/component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/component/component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/component/files/__fileName__.spec.tsx__tmpl__" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/component/files/__fileName__.tsx__tmpl__" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/component/lib/add-import.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/component/lib/normalize-options.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/component/schema.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/component/schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/init/init.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/init/init.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/init/lib/add-git-ignore-entry.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/init/lib/gitignore-entries.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/init/schema.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/init/schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/library/files/lib/.babelrc__tmpl__" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/library/files/lib/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/library/files/lib/package.json__tmpl__" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/library/files/lib/src/index.ts__tmpl__" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/library/files/lib/test-setup.ts.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/library/files/lib/tsconfig.json__tmpl__" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/library/files/lib/tsconfig.lib.json__tmpl__" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/library/lib/normalize-options.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/library/library.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/library/library.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/library/schema.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/generators/library/schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/migrations/update-12-10-0/add-react-native-svg-12-10-0.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/migrations/update-12-10-0/add-react-native-svg-12-10-0.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/migrations/update-12-5-0/update-jest-for-react-native.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/migrations/update-12-5-0/update-jest-for-react-native.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/utils/add-jest.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/utils/add-linting.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/utils/add-linting.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/utils/chmod-task.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/utils/ensure-node-modules-symlink.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/utils/ensure-node-modules-symlink.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/utils/find-all-npm-dependencies.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/utils/find-all-npm-dependencies.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/utils/pod-install-task.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/utils/symlink-task.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/utils/testing-generators.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/utils/versions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/tsconfig.lib.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/template/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,6 +26,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -206,7 +39,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634465098331</updated>
-      <workItem from="1634465099709" duration="955000" />
+      <workItem from="1634465099709" duration="1858000" />
     </task>
     <servers />
   </component>

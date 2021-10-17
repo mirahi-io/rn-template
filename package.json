@@ -1,15 +1,60 @@
 {
-  "name": "rn-template",
-  "version": "0.0.0",
+  "name": "@mirahi/rn-template",
+  "version": "0.0.1",
+  "description": "An opinionated React Native Plugin for Nx",
+  "keywords": [
+    "Monorepo",
+    "React",
+    "Web",
+    "Jest",
+    "Native",
+    "CLI",
+    "Orval",
+    "React-native",
+    "React-query"
+  ],
+  "bugs": {
+    "url": "https://github.com/mirahi/rn-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mirahi/rn-template.git"
+  },
   "license": "MIT",
-  "devDependencies": {
+  "contributors": [
+    {"name":"Tim Simon","email":"tim@mirahi.io","url":"https://github.com/xorob0"},
+    {"name":"Aylin Gokalp","email":"aylin@mirahi.io"},
+    {"name":"Sacha Hennaut"}
+    ],
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@nrwl/detox": "*",
+    "@nrwl/devkit": "*",
+    "@nrwl/jest": "*",
+    "@nrwl/linter": "*",
+    "@nrwl/react": "*",
+    "chalk": "^4.1.0",
+    "ignore": "^5.0.4",
+    "metro-resolver": "^0.66.2",
+    "node-fetch": "^2.6.1",
+    "tsconfig-paths": "^3.9.0",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.0"
   },
-  "scripts": {
-    "prepare": "husky install",
-    "test": "echo 'no tests yet'"
+  "peerDependencies": {
+    "@nrwl/workspace": "*",
+    "react-native": "0.65.1"
   },
+  "builders": "./executors.json",
+  "ng-update": {
+    "requirements": {},
+    "migrations": "./migrations.json"
+  },
+  "schematics": "./generators.json",
   "volta": {
     "node": "16.11.1"
   },
