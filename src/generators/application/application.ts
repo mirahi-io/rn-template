@@ -10,7 +10,7 @@ import {
   Tree,
   formatFiles,
   joinPathFragments,
-  GeneratorCallback,
+  GeneratorCallback, generateFiles, offsetFromRoot,
 } from '@nrwl/devkit';
 import { normalizeOptions } from './lib/normalize-options';
 import initGenerator from '../init/init';
@@ -44,6 +44,15 @@ export async function reactNativeApplicationGenerator(
     options.appProjectRoot
   );
   const detoxTask = await addDetox(host, options);
+
+  if(schema.navigation) {
+    // FIXME update Android MainActivity.java for React Navigation lib
+    generateFiles(host, join(__dirname, '../files/react-navigation'), options.appProjectRoot, {
+      ...options,
+      offsetFromRoot: offsetFromRoot(options.appProjectRoot),
+    });
+  }
+
   const symlinkTask = runSymlink(options.appProjectRoot);
   const podInstallTask = runPodInstall(options.iosProjectRoot);
   const chmodTaskGradlew = runChmod(

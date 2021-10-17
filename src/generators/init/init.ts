@@ -1,10 +1,10 @@
 import { setDefaultCollection } from '@nrwl/workspace/src/utilities/set-default-collection';
 import {
-  addDependenciesToPackageJson,
-  convertNxGenerator,
-  formatFiles,
-  removeDependenciesFromPackageJson,
-  Tree,
+    addDependenciesToPackageJson,
+    convertNxGenerator,
+    formatFiles,
+    removeDependenciesFromPackageJson,
+    Tree,
 } from '@nrwl/devkit';
 import { Schema } from './schema';
 import {

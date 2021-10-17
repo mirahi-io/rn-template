@@ -21,11 +21,6 @@
       "type": "string",
       "enum": ["detox", "none"],
       "default": "detox"
-    },
-    "navigation": {
-      "description": "Add React Navigation lib",
-      "type": "boolean",
-      "default": true
     }
   },
   "required": []
