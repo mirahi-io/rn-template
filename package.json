@@ -1,0 +1,21 @@
+{
+  "name": "rn-template",
+  "version": "0.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^7.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "test": "echo 'no tests yet'"
+  },
+  "volta": {
+    "node": "16.11.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
