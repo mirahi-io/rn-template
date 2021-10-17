@@ -23,3 +23,8 @@ export const reactTestRendererVersion = '17.0.2';
 
 export const reactNativeSvgTransformerVersion = '0.14.3';
 export const reactNativeSvgVersion = '12.1.1';
+
+export const reactNavigationNativeVersion = "^6.0.6";
+export const reactNavigationNativeStackVersion = "^6.2.4";
+export const reactNativeSafeAreaContext = "^3.3.2";
+export const reactNativeScreens = "^3.8.0";
